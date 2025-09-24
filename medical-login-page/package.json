@@ -1,0 +1,39 @@
+{
+  "name": "medcare-portal",
+  "version": "1.0.0",
+  "description": "Medical Login Portal with Supabase Integration and OTP Registration",
+  "main": "index.html",
+  "type": "module",
+  "scripts": {
+    "dev": "python -m http.server 8000",
+    "start": "python -m http.server 8000",
+    "install-deps": "npm install",
+    "build": "echo 'No build process needed for static files'",
+    "test": "echo 'No tests specified'"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.38.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "keywords": [
+    "medical",
+    "healthcare",
+    "login",
+    "supabase",
+    "otp",
+    "authentication",
+    "registration"
+  ],
+  "author": "MedCare Portal Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/medcare-portal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/medcare-portal/issues"
+  },
+  "homepage": "https://github.com/your-username/medcare-portal#readme"
+}
