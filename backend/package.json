@@ -1,0 +1,60 @@
+{
+  "name": "medical-backend",
+  "version": "1.0.0",
+  "description": "Backend for Medical App (OTP login)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "setup": "node setup.js",
+    "test": "node quick-supabase-test.mjs",
+    "test:db": "node quick-supabase-test.mjs",
+    "logs": "tail -f logs/$(date +%Y-%m-%d).log",
+    "clean": "rm -rf logs/*.log",
+    "install-setup": "npm install && npm run setup"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.7.0",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "express-validator": "^7.0.1",
+    "googleapis": "^160.0.0",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.0",
+    "multer": "^2.0.2",
+    "nodemailer": "^6.9.4",
+    "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": [
+    "medical",
+    "healthcare",
+    "backend",
+    "api",
+    "otp",
+    "authentication",
+    "supabase",
+    "express",
+    "nodejs"
+  ],
+  "author": "Medical Backend Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/medical-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/medical-backend/issues"
+  },
+  "homepage": "https://github.com/your-username/medical-backend#readme"
+}
